@@ -40,11 +40,11 @@
 
 ### 🚀 Implementation Highlights
 
-* 
+ 
 **User Experience:** Developed with a focus on a clean, intuitive interface to ensure ease of use for non-technical users.
 
 
-* 
+
 **AI Integration:** Leverages emerging technologies to solve real-world agricultural challenges.
 
 

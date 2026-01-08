@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AgriNexus X</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="./Icon & Logo/AGRINEXUS.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div id="poster-popup" class="popup hidden">
+      <div class="popup-content">
+        <span id="close-btn">&times;</span>
+        <img src="./Icon & Logo/poster.jpg" alt="AgriNexus Poster" id="poster" />
+      </div>
+    </div>
+
+    <header>
+      <nav>
+        <div class="logo">
+          <img src="./Icon & Logo/AGRINEXUS.png" alt="AGRINEXUS" />
+        </div>
+        <ul>
+          <li><a href="#features" data-translate="features">Features</a></li>
+          <li>
+            <a href="#how-it-works" data-translate="how_it_works"
+              >How It Works</a
+            >
+          </li>
+          <li><a href="#contact" data-translate="contact">Contact</a></li>
+          <li>
+            <a
+              href="./Icon & Logo/app-release.apk"
+              class="cta-button"
+              data-translate="Download"
+              >Download</a
+            >
+          </li>
+          <li>
+            <select id="language-selector">
+              <option value="en">English</option>
+              <option value="hi">Hindi (हिंदी)</option>
+            </select>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="hero-content">
+        <h1 data-translate="hero_title">
+          AgriNexus X: The Autonomous farm Intelligence System.
+        </h1>
+        <p data-translate="hero_description">
+          Protect Your Crops & Plants with AI-Powered Disease Detection
+        </p>
+        <a href="#" class="cta-button" data-translate="start_detecting"
+          >Start Detecting Now!</a
+        >
+      </div>
+      <div class="hero-image">
+        <img src="./Icon & Logo/first.jpeg" alt="Healthy crops" />
+      </div>
+    </section>
+
+    <section id="features" class="features">
+      <h2 data-translate="key_features">Key Features</h2>
+      <div class="feature-grid">
+        <div class="feature">
+          <i class="fas fa-check-circle fa-3x"></i>
+          <h3 data-translate="accurate_detection">
+            Accurate Disease Detection
+          </h3>
+          <p data-translate="accurate_detection_desc">
+            Our AI model is trained on a vast dataset of plant images to
+            identify a wide range of diseases with high accuracy.
+          </p>
+        </div>
+        <div class="feature">
+          <i class="fas fa-clock fa-3x"></i>
+          <h3 data-translate="early_detection">Early Detection</h3>
+          <p data-translate="early_detection_desc">
+            Detect diseases in their early stages, allowing you to take prompt
+            action and prevent widespread damage.
+          </p>
+        </div>
+        <div class="feature">
+          <i class="fas fa-mobile-alt fa-3x"></i>
+          <h3 data-translate="mobile_app">Easy-to-Use Mobile App</h3>
+          <p data-translate="mobile_app_desc">
+            Upload images of your plants directly from your smartphone for
+            on-the-go disease detection.
+          </p>
+        </div>
+        <div class="feature">
+          <i class="fas fa-chart-line fa-3x"></i>
+          <h3 data-translate="yield_optimization">Yield Optimization</h3>
+          <p data-translate="yield_optimization_desc">
+            By preventing disease outbreaks, Crop Defender helps you maximize
+            your crop yield and profitability.
+          </p>
+        </div>
+        <div class="feature">
+          <i class="fas fa-leaf fa-3x"></i>
+          <h3 data-translate="plants_supported">
+            Wide Range of Plants Supported
+          </h3>
+          <p data-translate="plants_supported_desc">
+            Our system supports detection of diseases in various plants and
+            crops, including fruits, vegetables, and grains.
+          </p>
+        </div>
+        <div class="feature">
+          <img src="./Icon & Logo/image@1x.png" alt="Market" width="30px" height="30px" />
+          <h3 data-translate="plant_supported">Direct Market Access</h3>
+          <p data-translate="plant_supported_desc">
+            Direct marketplace integration, Farmers can list & sell their
+            produce.
+          </p>
+        </div>
+        <div class="feature">
+          <img src="./Icon & Logo/drone.png" alt="drone" width="32px" height="32px" />
+          <h3 data-translate="drone">Drone</h3>
+          <p data-translate="drone_desc">
+            Drone can also capturing the image and upload on the Application.
+          </p>
+        </div>
+        <div class="feature">
+          <img src="./Icon & Logo/soil.png" alt="drone" width="30px" height="30px" />
+          <h3 data-translate="Soil">Soil Monitoring</h3>
+          <p data-translate="Soil_desc">
+            We can add soil Monitoring in two ways. <br />
+            (i). With AI integration model <br />
+            (ii). With Iot Sensors
+          </p>
+        </div>
+        <div class="feature">
+          <img src="./Icon & Logo/simulator.png" alt="drone" width="30px" height="30px" />
+          <h3 data-translate="sim">Simulator</h3>
+          <p data-translate="sim_desc">
+            Simulator feature will be added to the application where a farmer
+            can easily tear and train with the help of transmitter that can also
+            be purchashed by the shop section or production sensor and connect
+            to the simulator.
+          </p>
+        </div>
+        <div class="feature">
+          <img src="./Icon & Logo/s_drone.png" alt="drone" width="30px" height="30px" />
+          <h3 data-translate="s_drone">Spraying Drone</h3>
+          <p data-translate="s_drone_desc">
+            For the future enhancement, we can create drone (Spraying Drone).
+          </p>
+        </div>
+        <div class="feature">
+          <h3 data-translate="buy">Buy Product</h3>
+          <p data-translate="buy_desc">
+            Product can be buyed directly form application and it will show the
+            application as product based application too.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="how-it-works" class="how-it-works">
+      <h2 data-translate="how_it_works_title">How It Works</h2>
+      <div class="steps">
+        <div class="step">
+          <h3 data-translate="step_1_title">1. Upload a Photo</h3>
+          <p data-translate="step_1_desc">
+            Take a photo of the affected plant or crop using your smartphone or
+            upload an existing image.
+          </p>
+        </div>
+        <div class="step">
+          <h3 data-translate="step_2_title">2. AI Analysis</h3>
+          <p data-translate="step_2_desc">
+            Our AI model analyzes the image to identify potential diseases based
+            on visual symptoms.
+          </p>
+        </div>
+        <div class="step">
+          <h3 data-translate="step_3_title">3. Get Results</h3>
+          <p data-translate="step_3_desc">
+            Receive a detailed report with the identified disease (if any) and
+            recommended treatment options.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2 data-translate="contact_title">Contact Us</h2>
+      <p data-translate="contact_description">
+        Have questions? Reach out to our team.
+      </p>
+      <form>
+        <input
+          type="text"
+          placeholder="Your Name"
+          data-translate="name_placeholder"
+        />
+        <input
+          type="email"
+          placeholder="Your Email"
+          data-translate="email_placeholder"
+        />
+        <textarea
+          placeholder="Your Message"
+          data-translate="message_placeholder"
+        ></textarea>
+        <button type="submit" class="cta-button" data-translate="send_message">
+          Send Message
+        </button>
+      </form>
+    </section>
+
+    <footer>
+      <p data-translate="footer_copyright">
+        © 2025 AgriNexus X By Team Neural Nexus. All rights reserved.
+      </p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
